@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Redacted+Script:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-y: auto;
+  background: #2B2C34;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #2B2C34;
+}
+
+a{
+  text-decoration: none;
+  color: #2B2C34;
+}
+
+ul,li{
+  list-style: none;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgb(43,44,52, 100%);
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgb(98,70,234, 50%);
+  border-radius: 50px;
+  border: 0.01px solid rgba(255, 255, 255, 20%);
+}

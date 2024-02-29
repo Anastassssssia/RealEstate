@@ -1,0 +1,62 @@
+[
+    {
+        "id": "303", 
+        "imageSrc": "./bio.svg",
+        "district":"Київський", 
+        "street":"Варненська 34А", 
+        "price": "15 000", 
+        "type": "оренда", 
+        "room": 1, 
+        "area": 58,
+        "floor": 4,
+        "realtor": "Волошина Мішель",
+        "status": "активний",
+        "id_pages": {
+            "text1": 303,
+            "text2": "aaaa"
+            
+        },
+        "images":[
+            "/static/media/1.525a97b5126a4297303b.jpg",
+            "/static/media/2.faf654cbc01196bcb1b4.jpg",
+            "/static/media/3.4932a159e2275b4b8095.jpg",
+            "/static/media/4.cefbace94651e507012c.jpg",
+            "/static/media/5.d31a7ce79febc97c2d2e.jpg",
+            "/static/media/6.8345351aeb21e1ea1105.jpg",
+            "/static/media/7.900a0303b19deff533f7.jpg",
+            "/static/media/8.69ecb015fe003a532c2f.jpg",
+            "/static/media/9.20504c62908504684649.jpg",
+            "/static/media/10.30f18bbe6994904f3919.jpg"
+        ]
+        
+    },
+    {
+        "id": "275", 
+        "district":"Київський", 
+        "street":"Варненська 33А", 
+        "price": "12 000", 
+        "type": "оренда", 
+        "room": 1, 
+        "area": 48,
+        "floor": 3,
+        "realtor": "Волошина Мішель",
+        "status": "активний",
+        "id_pages": {
+            "text1": 1,
+            "text2": "bbbs"
+        },
+        "images":[
+            "/static/media/1.80458552db087854693f.jpg",
+            "/static/media/2.a57004a5293063ef75b6.jpg",
+            "/static/media/3.65385264c175530625f9.jpg",
+            "/static/media/4.d0551866fc69ce6b4061.jpg",
+            "/static/media/5.c3de708e704275f6d2e6.jpg",
+            "/static/media/6.0337606472376f6ae4fb.jpg",
+            "/static/media/7.a1389f6bef8e4a543003.jpg",
+            "/static/media/8.8e4037694c083b5c88e8.jpg",
+            "/static/media/9.385ce2cde0eaafaf76c2.jpg"
+        ]
+        
+    }
+    
+]

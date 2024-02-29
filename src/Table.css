@@ -1,0 +1,112 @@
+.table_wrapper{
+    overflow-x: auto;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+}
+
+table th, table td {
+    text-align: left;
+    border: 1px solid rgb(43,44,52, 30%);
+}
+
+.table{
+    background: white;
+    border: 2px solid #543FBA;
+    box-shadow: 0 4px 3px 0 rgb(43,44,52, 60%);
+}
+
+.table th{
+    border-top: 0;
+}
+
+.table th, .table td{
+    padding: 10px;
+}
+
+.table thead tr{
+    background: #543FBA;
+    color: white;
+}
+
+.table thead tr th{
+    font-weight: 400;
+}
+
+.table tbody tr:hover:not(:first-child){
+    background: #b7a8ff73;
+}
+
+.table tbody tr a:hover{
+    text-decoration: underline;
+}
+/* -------- */
+
+input{
+    width: 98%;
+    padding: 1%;
+}
+
+.input_search{
+    outline: none;
+    background: transparent;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #aaa; 
+    color: #2B2C34;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input_search:focus {
+    border-color:  rgba(0,0,0, .3);
+    box-shadow: 0 3px 6px rgba(0,0,0, .2);
+}
+
+.input_search::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23777'><path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/></svg>"); 
+    cursor: pointer;
+}
+/* -------- */
+
+.btn_center{
+    text-align: center;
+}
+.btn_status{
+    padding: 7px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.green {
+    background: #1CB71C;
+}
+.red{
+    background: #E40000;
+}
+/* -------- */
+.column_250{
+    width: 250px;
+}
+.column_200{
+    width: 200px;
+}
+.column_150{
+    width: 120px;
+}
+.column_100{
+    width: 100px;
+}
+.column_80{
+    width: 80px;
+}
+.column_50{
+    width: 50px;
+}

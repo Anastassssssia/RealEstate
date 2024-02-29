@@ -1,0 +1,112 @@
+
+.sidebar{
+    height: 150vh;
+    background: #2B2C34;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.active_sidebar{
+    width: 250px;
+}
+
+.inactive_sidebar{
+    width: 60px;
+    align-items: center;
+}
+/* -------- */
+.active_i_menu{
+    padding: 0 20px;
+    transition: all 0.2s ease-in;
+}
+
+.inactive_i_menu{
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.icon_menu{
+    cursor: pointer;
+}
+/* -------- */
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio.active_bio{
+    column-gap: 10px;
+    padding: 0 10px 10px;
+}
+
+.icon_bio img{
+    cursor: pointer;
+}
+
+.inactive_i_bio{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.inactive_i_bio img{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.bio_text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.bio_text span{
+    color: white;
+    font-family: "Raleway";
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.inactive_bio_text{
+    display: none;
+}
+/* -------- */
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar.inactive_nav{
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    padding: 15px 20.5px;
+    transition: all 0.2s ease-in;
+}
+
+.nav-links:hover{
+    background: rgb(98,70,234, 74%);
+}
+
+.active_nav .nav-links{
+    column-gap: 20px;
+}
+
+.nav-links span{
+    color: white;
+}
+
+.inactive_nav .nav-links span{
+    display: none;
+}

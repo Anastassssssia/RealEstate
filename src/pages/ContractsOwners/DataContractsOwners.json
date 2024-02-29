@@ -1,0 +1,25 @@
+[
+    {
+        "id": "67",
+        "id_owners": "33", 
+        "id_realEstate": "44", 
+        "type": "продати",
+        "type_property": "квартира",
+        "realtor": "Волошина Мішель",
+        "status": "активний",
+        "date_start": "22.04.2023",
+        "date_end": "22.04.2024"
+    },
+    {
+        "id": "68", 
+        "id_owners": "65", 
+        "id_realEstate": "21", 
+        "type": "сдати в оренду",
+        "type_property": "будинок",
+        "realtor": "Волошина Мішель",
+        "status": "неактивний",
+        "date_start": "08.07.2022",
+        "date_end": "08.01.2023"
+    }
+    
+]
