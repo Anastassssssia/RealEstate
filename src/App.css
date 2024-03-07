@@ -148,6 +148,13 @@
     justify-content: space-between;
     align-items: center;
 }
+.form_box_down{
+    display: flex;
+    column-gap: 30px;
+    width: 30%;
+    justify-content:flex-start;
+    align-items: center;
+}
 
 .input_box{
     width: 100%;
@@ -162,10 +169,12 @@
 
  .input_box input,  .input_box textarea, .input_box select{
     width: 100%;
-    padding: 7px;
+    padding: 10px;
     outline: none;
     border: 1px solid #aaa; 
     color:#333;
+    font-size: 14px;
+    background: white;
  }
 
  .input_box input:focus {
@@ -188,7 +197,35 @@
     text-align: center;
     align-items: center;
 }
+
+.btn_file{
+    background: rgb(43, 44, 52, 10%);
+    outline: none;
+    border: 1px solid #aaa; 
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    font-size: 14px;
+}
+
+.btn_file:hover{
+    background: #2B2C34;
+    color: #ffffff;
+}
+
+.btn_file_add{
+    border: 1px solid rgb(43, 44, 52, 35%); 
+    background: rgb(43, 44, 52, 25%);
+    /* padding: 10px; */
+    
+}
+
+.form_add{
+    padding: 20px;
+}
+
 /* -------- */
+
 .pagination{
     text-align: center;
 }
@@ -227,6 +264,9 @@
     font-weight: 600;
     letter-spacing: 1px;
 }
+.box_title .title:hover{
+    color: #543FBA; 
+}
 
 .id_object{
     font-weight: 600;
@@ -247,7 +287,6 @@
 
 .container_info{
     width: 100%;
-    padding: 0px 20px;
     display: flex;
     flex-direction: row;
     column-gap: 30px;
@@ -257,6 +296,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 15px;
+    width: 100%;
 }
 
 .info_subtitle{
@@ -272,6 +312,17 @@
     column-gap: 15px;
     align-items: center;
     font-size: 14px;
+}
+
+.box_subtitle:hover{
+    color: #543FBA;    
+}
+
+.box_space{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .key_subtitle{
@@ -292,27 +343,47 @@
 .charact h4{
     text-transform: uppercase;
     letter-spacing: 1px;
+    text-align: center;
 }
-.box_charact{
+
+.container_charact{
     display: flex;
-    column-gap: 10px;
+    flex-direction: row;
+    column-gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
 /* -------- */
 
 .slider-container {
-    /* margin: 10px; */
     width: 500px;
     height: 400px;
-
   }
   
-  .slider-container .slick-slide img {
+.slider-container .slick-slide img {
     width: 100%;
+    max-height: 350px;
     border-radius: 25px;
-  }
+    cursor: pointer;
+    object-fit: cover;
+}
 
 .slick-prev:before, .slick-next:before{
     color: #543FBA;
+    color: white;
+    font-size: 25px;
+
+}
+.slick-prev{
+    left: 10px;
+    z-index: 99;
+}
+
+.slick-next{
+    right: 10px;
+    z-index: 99;
 }
 
 .slick-dots li button:before {

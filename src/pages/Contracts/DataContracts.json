@@ -1,27 +1,52 @@
 [
     {
-        "id": "116",
-        "id_clients": "22", 
-        "goal": "оренда",
-        "type_property": "квартира",
-        "district":"Київський",
-        "max_price": "12 000", 
-        "room": 2,
-        "realtor": "Волошина Мішель",
-        "status": "неактивний",
-        "date": "22.02.2023"
+        "id": "601", "id_owners": "104", "id_clients": "012", "id_realEstate": "304",
+        "type": "оренда", "type_property": "будинок", "realtor": "Волошина Мішель",
+        "status": "активний", "date_start": "22.05.2024", "date_end": "22.05.2025"
     },
     {
-        "id": "675", 
-        "id_clients": "27", 
-        "goal": "купити",
-        "type_property": "будинок",
-        "district":"Київський", 
-        "max_price": "30 000", 
-        "room": 3,
-        "realtor": "Волошина Мішель",
-        "status": "активний",
-        "date": "25.02.2024"
+        "id": "602", "id_owners": "105", "id_clients": "007", "id_realEstate": "305",
+        "type": "продаж/купівля", "type_property": "будинок", "realtor": "Лисенко Андрій",
+        "status": "активний", "date_start": "25.03.2024", "date_end": ""
+    },
+    {
+        "id": "603", "id_owners": "109", "id_clients": "017", "id_realEstate": "306",
+        "type": "продаж/купівля", "type_property": "будинок", "realtor": "Романенко Ігор",
+        "status": "активний", "date_start": "15.04.2024", "date_end": ""
+    },
+    {
+        "id": "604", "id_owners": "107", "id_clients": "009", "id_realEstate": "307",
+        "type": "оренда", "type_property": "квартира", "realtor": "Тимошенко Анастасія",
+        "status": "активний", "date_start": "28.03.2024", "date_end": "28.03.2025"
+    },
+    {
+        "id": "605", "id_owners": "103", "id_clients": "005", "id_realEstate": "309",
+        "type": "продаж/купівля", "type_property": "квартира", "realtor": "Романенко Ігор",
+        "status": "неактивний", "date_start": "25.04.2024", "date_end": ""
+    },
+    {
+        "id": "606", "id_owners": "110", "id_clients": "011", "id_realEstate": "312",
+        "type": "продаж/купівля", "type_property": "квартира", "realtor": "Лисенко Андрій",
+        "status": "неактивний", "date_start": "23.04.2024", "date_end": ""
+    },
+    {
+        "id": "607", "id_owners": "115", "id_clients": "018", "id_realEstate": "317",
+        "type": "оренда", "type_property": "квартири", "realtor": "Тимошенко Анастасія",
+        "status": "неактивний", "date_start": "18.04.2024", "date_end": "18.04.2025"
+    },
+    {
+        "id": "608", "id_owners": "103", "id_clients": "005", "id_realEstate": "309",
+        "type": "продаж/купівля", "type_property": "квартира", "realtor": "Романенко Ігор",
+        "status": "активний", "date_start": "25.04.2024", "date_end": ""
+    },
+    {
+        "id": "609", "id_owners": "110", "id_clients": "011", "id_realEstate": "312",
+        "type": "продаж/купівля", "type_property": "квартира", "realtor": "Лисенко Андрій",
+        "status": "активний", "date_start": "23.04.2024", "date_end": ""
+    },
+    {
+        "id": "610", "id_owners": "115", "id_clients": "018", "id_realEstate": "317",
+        "type": "оренда", "type_property": "квартири", "realtor": "Тимошенко Анастасія",
+        "status": "активний", "date_start": "18.04.2024", "date_end": "18.04.2025"
     }
-    
 ]

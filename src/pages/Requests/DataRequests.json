@@ -1,27 +1,102 @@
 [
     {
-        "id": "116",
-        "id_clients": "22", 
-        "goal": "оренда",
-        "type_property": "квартира",
-        "district":"Київський",
-        "max_price": "12 000", 
-        "room": 2,
-        "realtor": "Волошина Мішель",
-        "status": "неактивний",
-        "date": "22.02.2023"
+        "id": "401", "id_clients": "006", "realtor": "Волошина Мішель", 
+        "goal": "оренда", "type_property": "квартира", "district":"Приморський",
+        "max_price": "12 000",  "room": 2, "status": "активний", "date": "22.02.2023"
     },
     {
-        "id": "675", 
-        "id_clients": "27", 
-        "goal": "купити",
-        "type_property": "будинок",
-        "district":"Київський", 
-        "max_price": "30 000", 
-        "room": 3,
-        "realtor": "Волошина Мішель",
-        "status": "активний",
-        "date": "25.02.2024"
+        "id": "402", "id_clients": "007", "realtor": "Лисенко Андрій",
+        "goal": "купити", "type_property": "будинок", "district":"Київський", 
+        "max_price": "3 000 000", "room": 2,"status": "неактивний", "date": "25.02.2024"
+    },
+    {
+        "id": "403", "id_clients": "015", "realtor": "Тимошенко Анастасія", 
+        "goal": "оренда", "type_property": "будинок", "district":"Київський",
+        "max_price": "20 000",  "room": 3, "status": "активний", "date": "20.03.2024"
+    },
+    {
+        "id": "404", "id_clients": "005", "realtor": "Романенко Ігор", 
+        "goal": "купити", "type_property": "квартира", "district":"Приморський",
+        "max_price": "2 500 000",  "room": 2, "status": "неактивний", "date": "05.03.2024"
+    },
+    {
+        "id": "405", "id_clients": "010", "realtor": "Черненко Володимир", 
+        "goal": "оренда", "type_property": "квартира", "district":"Пересипський",
+        "max_price": "10 000",  "room": 2, "status": "активний", "date": "10.03.2024"
+    },
+    {
+        "id": "406", "id_clients": "017", "realtor": "Романенко Ігор ", 
+        "goal": "купити", "type_property": "будинок", "district":"Приморський",
+        "max_price": "5 800 000",  "room": 2, "status": "неактивний", "date": "15.03.2024"
+    },
+    {
+        "id": "407", "id_clients": "019", "realtor": "Тимошенко Анастасія", 
+        "goal": "оренда", "type_property": "квартира", "district":"Київський",
+        "max_price": "6 000",  "room": 1, "status": "активний", "date": "20.03.2024"
+    },
+    {
+        "id": "408", "id_clients": "020", "realtor": "Романенко Ігор", 
+        "goal": "купити", "type_property": "квартира", "district":"Приморський",
+        "max_price": "6 000 000",  "room": 3, "status": "активний", "date": "25.03.2024"
+    },
+    {
+        "id": "409", "id_clients": "012", "realtor": "Волошина Мішель", 
+        "goal": "оренда", "type_property": "будинок", "district":"Приморський",
+        "max_price": "18 000",  "room": 2, "status": "неактивний", "date": "02.03.2024"
+    },
+    {
+        "id": "410", "id_clients": "013", "realtor": "Петренко Тетяна", 
+        "goal": "купити", "type_property": "квартира", "district":"Пересипський",
+        "max_price": "2 100 000",  "room": 2, "status": "активний", "date": "05.03.2024"
+    },
+    {
+        "id": "411", "id_clients": "018", "realtor": "Тимошенко Анастасія", 
+        "goal": "оренда", "type_property": "квартира", "district":"Київський",
+        "max_price": "15 000",  "room": 1, "status": "неактивний", "date": "08.03.2024"
+    },
+    {
+        "id": "412", "id_clients": "002", "realtor": "Ніколаєва Олена", 
+        "goal": "купити", "type_property": "будинок", "district":"Хаджибейський",
+        "max_price": "3 900 000",  "room": 3, "status": "активний", "date": "12.03.2024"
+    },
+    {
+        "id": "413", "id_clients": "009", "realtor": "Тимошенко Анастасія ", 
+        "goal": "оренда", "type_property": "квартира", "district":"Київський",
+        "max_price": "9 000",  "room": 1, "status": "неактивний", "date": "18.03.2024"
+    },
+    {
+        "id": "414", "id_clients": "003", "realtor": "Черненко Володимир", 
+        "goal": "оренда", "type_property": "квартира", "district":"Пересипський",
+        "max_price": "16 000",  "room": 2, "status": "активний", "date": "22.03.2024"
+    },
+    {
+        "id": "415", "id_clients": "011", "realtor": "Лисенко Андрій", 
+        "goal": "купити", "type_property": "квартира", "district":"Київський",
+        "max_price": "1 500 000",  "room": 3, "status": "неактивний", "date": "25.03.2024"
+    },
+    {
+        "id": "416", "id_clients": "001", "realtor": "Романенко Ігор", 
+        "goal": "купити", "type_property": "квартира", "district":"Приморський",
+        "max_price": "2 500 000",  "room": 1, "status": "активний", "date": "30.03.2024"
+    },
+    {
+        "id": "417", "id_clients": "004", "realtor": "Тимошенко Анастасія", 
+        "goal": "оренда", "type_property": "будинок", "district":"Київський",
+        "max_price": "15 000",  "room": 2, "status": "активний", "date": "30.03.2024"
+    },
+    {
+        "id": "413", "id_clients": "008", "realtor": "Петренко Тетяна", 
+        "goal": "купити", "type_property": "квартира", "district":"Пересипський",
+        "max_price": "4 570 000",  "room": 4, "status": "активний", "date": "01.04.2024"
+    },
+    {
+        "id": "414", "id_clients": "014", "realtor": "Тимошенко Анастасія", 
+        "goal": "оренда", "type_property": "будинок", "district":"Київський",
+        "max_price": "14 000",  "room": 4, "status": "активний", "date": "02.04.2024"
+    },
+    {
+        "id": "415", "id_clients": "016", "realtor": "Тарасюк Василь", 
+        "goal": "оренда", "type_property": "будинок", "district":"Хаджибейський",
+        "max_price": "13 000",  "room": 3, "status": "активний", "date": "02.04.2024"
     }
-    
 ]

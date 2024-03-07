@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { Link } from "react-router-dom";
 import Navbar from '../../components/Navbar/Navbar'
 import DataOwners from './DataOwners.json'
 import Add from "../../icon/plus.svg";
@@ -6,7 +7,10 @@ import Cancel from "../../icon/cancel.svg";
 
 export default function Owners() {
   const [data, setData] = useState(DataOwners);
-
+  const [toggle, setToggle] = useState(2);
+  function updateToggle(id) {
+       setToggle(id)
+  }
 //-----------------
   const [showForm, setShowForm] = useState(false);
   const handleToggleForm = () => {
@@ -33,6 +37,28 @@ export default function Owners() {
     });
   };
 //-----------------
+  const [searchQuery, setSearchQuery] = useState({
+    id: '',  name_owner: '', status: '',
+    phone: '',  email: '', hb: ''
+  });
+
+  const handleSearch = (event) => {
+    const { name, value } = event.target;
+    setSearchQuery({ ...searchQuery, [name]: value });
+  };
+
+  let filteredData = data.filter((row) => {
+    return Object.keys(searchQuery).every((key) =>
+      row[key].toString().toLowerCase().includes(searchQuery[key].toLowerCase())
+    );
+  });
+
+  if (toggle === 2) {
+    filteredData = filteredData.filter((row) => row.status === 'активний');
+  } else if (toggle === 3) {
+    filteredData = filteredData.filter((row) => row.status === 'неактивний');
+  }
+//-----------------
 
   const handleChangeStatus = (index) => {
     const newData = [...data];
@@ -41,11 +67,11 @@ export default function Owners() {
   };
 //-----------------
   const [currentPage, setCurrentPage] = useState(1);
-  const [rowsPerPage] = useState(5); 
+  const [rowsPerPage] = useState(10); 
 
   const indexOfLastRow = currentPage * rowsPerPage;
   const indexOfFirstRow = indexOfLastRow - rowsPerPage;
-  const currentRows = data.slice(indexOfFirstRow, indexOfLastRow);
+  const currentRows = filteredData.slice(indexOfFirstRow, indexOfLastRow);
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
@@ -104,58 +130,66 @@ export default function Owners() {
                   </div>
                 )}
 
-                <div className='table_wrapper'>
-                  <table className='table'>
-                    <thead>
-                      <tr>
-                        <th className='column_80'>ID</th>
-                        <th>ПІБ</th>
-                        <th>Телефон</th>
-                        <th>Пошта</th>
-                        <th>День народження</th>
-                        <th>Статус</th>
-                      </tr>
-                    </thead>
-                  
-                    <tbody>
-                      <tr>
-                        <td><input className='input_search' name="id" type="search" /></td>
-                        <td><input className='input_search' name="name_owner" type="search" /></td>
-                        <td><input className='input_search' name="phone" type="search" /></td>
-                        <td><input className='input_search' name="email" type="search" /></td>
-                        <td><input className='input_search' name="hb" type="search" /></td>
-                        <td><input className='input_search' name="status" type="search" /></td>
-                      </tr>
-
-                      {currentRows.map((d, index) => (
-                        <tr key={index}>
-                          <td>{d.id}</td>
-                          <td>{d.name_owner}</td>
-                          <td>{d.phone}</td>
-                          <td>{d.email}</td>
-                          <td>{d.hb}</td>
-                          <td>
-                            <button
-                              className={d.status === "активний" ? "btn_status green" : "btn_status red"}
-                              onClick={() => handleChangeStatus(index)}
-                            >
-                              {d.status}
-                            </button>
-                           </td>
+                <div>
+                  <div className='subtitle'>
+                      <div className='subtitle_left'>
+                        <h4 className={toggle === 1 ? "left_active" : "left_inactive" } onClick={()=>updateToggle(1)}>Все</h4>
+                        <h4 className={toggle === 2 ? "left_active" : "left_inactive" } onClick={()=>updateToggle(2)}>Актуальне</h4>
+                        <h4 className={toggle === 3 ? "left_active" : "left_inactive" } onClick={()=>updateToggle(3)}>Неактуальне</h4>
+                      </div>
+                  </div>
+                  <div className='table_wrapper'>
+                    <table className='table'>
+                      <thead>
+                        <tr>
+                          <th className='column_80'>ID</th>
+                          <th>ПІБ</th>
+                          <th>Телефон</th>
+                          <th>Пошта</th>
+                          <th>День народження</th>
+                          <th>Статус</th>
                         </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
+                      </thead>
+                  
+                      <tbody>
+                        <tr>
+                          <td><input className='input_search' name="id" type="search" value={searchQuery.id} onChange={handleSearch}/></td>
+                          <td><input className='input_search' name="name_owner" type="search" value={searchQuery.name_owner} onChange={handleSearch}/></td>
+                          <td><input className='input_search' name="phone" type="search" value={searchQuery.phone} onChange={handleSearch} /></td>
+                          <td><input className='input_search' name="email" type="search" value={searchQuery.email} onChange={handleSearch}/></td>
+                          <td><input className='input_search' name="hb" type="search" value={searchQuery.hb} onChange={handleSearch}/></td>
+                          <td><input className='input_search' name="status" type="search" value={searchQuery.status} onChange={handleSearch}/></td>
+                        </tr>
 
-                <div className="pagination">
-                    {Array.from({ length: Math.ceil(data.length / rowsPerPage) }).map((_, index) => (
+                        {currentRows.map((d, index) => (
+                          <tr key={index}>
+                            <td><Link to=''>{d.id}</Link></td>
+                            <td>{d.name_owner}</td>
+                            <td>{d.phone}</td>
+                            <td>{d.email}</td>
+                            <td>{d.hb}</td>
+                            <td>
+                              <button
+                                className={d.status === "активний" ? "btn_status green" : "btn_status red"}
+                                onClick={() => handleChangeStatus(index)}
+                              >
+                                {d.status}
+                              </button>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                  </table>
+                  </div>
+
+                  <div className="pagination">
+                    {Array.from({ length: Math.ceil(filteredData.length / rowsPerPage) }).map((_, index) => (
                       <button key={index} className={currentPage === index + 1 ? 'btn_pagin_active' : 'btn_pagin_inactive'} onClick={() => paginate(index + 1)}>
                         {index + 1}
                       </button>
                     ))}
+                  </div>
                 </div>
-
             </div>
         </section>
     </>

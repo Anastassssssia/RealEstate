@@ -1,62 +1,215 @@
 [
     {
-        "id": "303", 
-        "imageSrc": "./bio.svg",
-        "district":"Київський", 
-        "street":"Варненська 34А", 
-        "price": "15 000", 
-        "type": "оренда", 
-        "room": 1, 
-        "area": 58,
-        "floor": 4,
-        "realtor": "Волошина Мішель",
-        "status": "активний",
-        "id_pages": {
-            "text1": 303,
-            "text2": "aaaa"
-            
-        },
+        "id": "303", "realtor": "Волошина Мішель",
+        "district":"Приморський", "street":"Французький бульвар 67", 
+        "type_property": "квартира", "type": "оренда", "price": "15 000", 
+        "room": 1, "floor": 23, "floors": 25, "area": 54, "area_liv": 19, "height": "2.8", "year": "2013",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "кухня-їдальня", "bathroom": "совм. (душ і ванна)", "build": "газобетон",
+        "status": "активний", "date": "17.05.2022",
         "images":[
-            "/static/media/1.525a97b5126a4297303b.jpg",
-            "/static/media/2.faf654cbc01196bcb1b4.jpg",
-            "/static/media/3.4932a159e2275b4b8095.jpg",
-            "/static/media/4.cefbace94651e507012c.jpg",
-            "/static/media/5.d31a7ce79febc97c2d2e.jpg",
-            "/static/media/6.8345351aeb21e1ea1105.jpg",
-            "/static/media/7.900a0303b19deff533f7.jpg",
-            "/static/media/8.69ecb015fe003a532c2f.jpg",
-            "/static/media/9.20504c62908504684649.jpg",
-            "/static/media/10.30f18bbe6994904f3919.jpg"
-        ]
-        
+            "./images/303/1.jpg", "./images/303/2.jpg", "./images/303/3.jpg", "./images/303/4.jpg",
+            "./images/303/5.jpg", "./images/303/6.jpg", "./images/303/7.jpg", "./images/303/8.jpg",
+            "./images/303/9.jpg", "./images/303/10.jpg"
+        ],
+        "description":  "Опис"
     },
     {
-        "id": "275", 
-        "district":"Київський", 
-        "street":"Варненська 33А", 
-        "price": "12 000", 
-        "type": "оренда", 
-        "room": 1, 
-        "area": 48,
-        "floor": 3,
-        "realtor": "Волошина Мішель",
-        "status": "активний",
-        "id_pages": {
-            "text1": 1,
-            "text2": "bbbs"
-        },
+        "id": "304", "realtor": "Волошина Мішель",
+        "district":"Приморський", "street":"Педагогічна 21", 
+        "type_property": "будинок", "type": "оренда", "price": "18 000", 
+        "room": 2, "floor": 1, "floors": 1, "area": 67, "area_liv": 40, "height": "2.5", "year": "2009",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "стандартна", "bathroom": "совм. (ванна)", "build": "цегла",
+        "status": "активний", "date": "21.05.2022",
         "images":[
-            "/static/media/1.80458552db087854693f.jpg",
-            "/static/media/2.a57004a5293063ef75b6.jpg",
-            "/static/media/3.65385264c175530625f9.jpg",
-            "/static/media/4.d0551866fc69ce6b4061.jpg",
-            "/static/media/5.c3de708e704275f6d2e6.jpg",
-            "/static/media/6.0337606472376f6ae4fb.jpg",
-            "/static/media/7.a1389f6bef8e4a543003.jpg",
-            "/static/media/8.8e4037694c083b5c88e8.jpg",
-            "/static/media/9.385ce2cde0eaafaf76c2.jpg"
-        ]
-        
+            "./images/304/1.jpg", "./images/304/2.jpg", "./images/304/3.jpg", "./images/304/4.jpg",
+            "./images/304/5.jpg", "./images/304/6.jpg", "./images/304/7.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "305", "realtor": "Лисенко Андрій",
+        "district":"Київський", "street":"Толбухіна 2", 
+        "type_property": "будинок", "type": "продаж", "price": "3 000 000", 
+        "room": 2, "floor": 1, "floors": 1, "area": 75, "area_liv": 43, "height": "2.7", "year": "2009",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "кухня-їдальня", "bathroom": "совм. (ванна)", "build": "цегла",
+        "status": "неактивний", "date": "21.05.2023",
+        "images":[
+            "./images/305/1.jpg", "./images/305/2.jpg", "./images/305/3.jpg", "./images/305/4.jpg",
+            "./images/305/5.jpg", "./images/305/6.jpg", "./images/305/7.jpg", "./images/305/8.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "306", "realtor": "Романенко Ігор",
+        "district":"Приморський", "street":"Каманіна 6", 
+        "type_property": "будинок", "type": "продаж", "price": "2 000 000", 
+        "room": 1, "floor": 1, "floors": 1, "area": 57, "area_liv": 25, "height": "3", "year": "2005",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "кухня-їдальня", "bathroom": "совм. (душ)", "build": "цегла",
+        "status": "неактивний", "date": "21.08.2023",
+        "images":[
+            "./images/306/1.jpg", "./images/306/2.jpg", "./images/306/3.jpg", "./images/306/4.jpg",
+            "./images/306/5.jpg", "./images/306/6.jpg", "./images/306/7.jpg", "./images/306/8.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "307", "realtor": "Тимошенко Анастасія",
+        "district":"Київський", "street":"Архітекторська 42", 
+        "type_property": "квартира", "type": "оренда", "price": "9 000", 
+        "room": 1, "floor": 6, "floors": 15, "area": 43, "area_liv": 22, "height": "2.7", "year": "2007",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "кухня-їдальня", "bathroom": "совм. (душ)", "build": "газобетон",
+        "status": "неактивний", "date": "06.09.2023",
+        "images":[
+            "./images/307/1.jpg", "./images/307/2.jpg", "./images/307/3.jpg", "./images/307/4.jpg",
+            "./images/307/5.jpg", "./images/307/6.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "308", "realtor": "Ніколаєва Олена",
+        "district":"Хаджибейський", "street":"Бреуса 61", 
+        "type_property": "квартира", "type": "оренда", "price": "9 000", 
+        "room": 1, "floor": 6, "floors": 15, "area": 55, "area_liv": 21, "height": "2.8", "year": "2006",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "кухня-їдальня", "bathroom": "совм. (душ)", "build": "газобетон",
+        "status": "активний", "date": "19.09.2023",
+        "images":[
+            "./images/308/1.jpg", "./images/308/2.jpg", "./images/308/3.jpg", "./images/308/4.jpg",
+            "./images/308/5.jpg", "./images/308/6.jpg", "./images/308/7.jpg", "./images/308/8.jpg", "./images/308/9.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "309", "realtor": "Романенко Ігор",
+        "district":"Приморський", "street":"Генуезька 12", 
+        "type_property": "квартира", "type": "продаж", "price": "4 575 000", 
+        "room": 2, "floor": 4, "floors": 9, "area": 80, "area_liv": 37, "height": "3", "year": "2008",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "кухня-їдальня", "bathroom": "совм. (ванна)", "build": "газобетон",
+        "status": "активний", "date": "07.10.2023",
+        "images":[
+            "./images/309/1.jpg", "./images/309/2.jpg", "./images/309/3.jpg", "./images/309/4.jpg",
+            "./images/309/5.jpg", "./images/308/9.jpg", "./images/309/7.jpg", "./images/309/8.jpg", 
+            "./images/309/9.jpg", "./images/309/10.jpg", "./images/309/11.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "310", "realtor": "Петренко Тетяна",
+        "district":"Пересипський", "street":"Марсельська 7", 
+        "type_property": "будинок", "type": "продаж", "price": "2 500 000", 
+        "room": 2, "floor": 1, "floors": 1, "area": 75, "area_liv": 35, "height": "2.9", "year": "2004",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "кухня-їдальня", "bathroom": "совм. (душ)", "build": "газобетон",
+        "status": "активний", "date": "17.10.2023",
+        "images":[
+            "./images/310/1.jpg", "./images/310/2.jpg", "./images/310/3.jpg", "./images/310/4.jpg",
+            "./images/310/5.jpg", "./images/310/9.jpg", "./images/310/7.jpg", "./images/310/8.jpg", 
+            "./images/310/9.jpg", "./images/310/10.jpg"
+        ],
+        "description":  "Опис"
+    },
+    
+    {
+        "id": "311", "realtor": "Черненко Володимир",
+        "district":"Пересипський", "street":"Паустовська 13", 
+        "type_property": "квартира", "type": "оренда", "price": "7 000", 
+        "room": 1, "floor": 5, "floors": 9, "area": 44, "area_liv": 19, "height": "3", "year": "2007",
+        "state": "євроремонт", "planning": "студія", "kitchen": "кухня-їдальня", "bathroom": "совм. (душ і ванна)", "build": "газобетон",
+        "status": "активний", "date": "11.11.2023",
+        "images":[
+            "./images/311/1.jpg", "./images/311/2.jpg", "./images/311/3.jpg", "./images/311/4.jpg",
+            "./images/311/5.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "312", "realtor": "Лисенко Андрій",
+        "district":"Київський", "street":"Варненська 34А", 
+        "type_property": "квартира", "type": "продаж", "price": "5 000 000", 
+        "room": 3, "floor": 8, "floors": 9, "area": 82, "area_liv": 49, "height": "2.9", "year": "2008",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "кухня-їдальня", "bathroom": "совм. (ванна)", "build": "газобетон",
+        "status": "активний", "date": "22.11.2023",
+        "images":[
+            "./images/312/1.jpg", "./images/312/2.jpg", "./images/312/3.jpg", "./images/312/4.jpg",
+            "./images/312/5.jpg", "./images/312/6.jpg", "./images/312/7.jpg", "./images/312/8.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "313", "realtor": "Ніколаєва Олена",
+        "district":"Хаджибейський", "street":"Шота Руставелі 9", 
+        "type_property": "квартира", "type": "оренда", "price": "17 000", 
+        "room": 3, "floor": 8, "floors": 9, "area": 74, "area_liv": 44, "height": "2.8", "year": "2010",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "стандарт", "bathroom": "совм. (ванна)", "build": "газобетон",
+        "status": "активний", "date": "23.11.2023",
+        "images":[
+            "./images/313/1.jpg", "./images/313/2.jpg", "./images/313/3.jpg", "./images/313/4.jpg",
+            "./images/313/5.jpg", "./images/313/6.jpg", "./images/313/7.jpg", "./images/313/8.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "314", "realtor": "Волошина Мішель",
+        "district":"Приморський", "street":"Педагогічна 21", 
+        "type_property": "будинок", "type": "оренда", "price": "18 000", 
+        "room": 2, "floor": 1, "floors": 1, "area": 67, "area_liv": 40, "height": "2.5", "year": "2009",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "стандартна", "bathroom": "совм. (ванна)", "build": "цегла",
+        "status": "активний", "date": "01.12.2023",
+        "images":[
+            "./images/304/1.jpg", "./images/304/2.jpg", "./images/304/3.jpg", "./images/304/4.jpg",
+            "./images/304/5.jpg", "./images/304/6.jpg", "./images/304/7.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "315", "realtor": "Лисенко Андрій",
+        "district":"Київський", "street":"Толбухіна 2", 
+        "type_property": "будинок", "type": "продаж", "price": "3 000 000", 
+        "room": 2, "floor": 1, "floors": 1, "area": 75, "area_liv": 43, "height": "2.7", "year": "2009",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "кухня-їдальня", "bathroom": "совм. (ванна)", "build": "цегла",
+        "status": "активний", "date": "28.12.2023",
+        "images":[
+            "./images/305/1.jpg", "./images/305/2.jpg", "./images/305/3.jpg", "./images/305/4.jpg",
+            "./images/305/5.jpg", "./images/305/6.jpg", "./images/305/7.jpg", "./images/305/8.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "316", "realtor": "Романенко Ігор",
+        "district":"Приморський", "street":"Каманіна 6", 
+        "type_property": "будинок", "type": "продаж", "price": "2 000 000", 
+        "room": 1, "floor": 1, "floors": 1, "area": 57, "area_liv": 25, "height": "3", "year": "2005",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "кухня-їдальня", "bathroom": "совм. (душ)", "build": "цегла",
+        "status": "активний", "date": "29.12.2023",
+        "images":[
+            "./images/306/1.jpg", "./images/306/2.jpg", "./images/306/3.jpg", "./images/306/4.jpg",
+            "./images/306/5.jpg", "./images/306/6.jpg", "./images/306/7.jpg", "./images/306/8.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "317", "realtor": "Тимошенко Анастасія",
+        "district":"Київський", "street":"Архітекторська 42", 
+        "type_property": "квартира", "type": "оренда", "price": "9 000", 
+        "room": 1, "floor": 6, "floors": 15, "area": 43, "area_liv": 22, "height": "2.7", "year": "2007",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "кухня-їдальня", "bathroom": "совм. (душ)", "build": "газобетон",
+        "status": "активний", "date": "02.01.2024",
+        "images":[
+            "./images/307/1.jpg", "./images/307/2.jpg", "./images/307/3.jpg", "./images/307/4.jpg",
+            "./images/307/5.jpg", "./images/307/6.jpg"
+        ],
+        "description":  "Опис"
+    },
+    {
+        "id": "318", "realtor": "Ніколаєва Олена",
+        "district":"Хаджибейський", "street":"Бреуса 61", 
+        "type_property": "квартира", "type": "оренда", "price": "9 000", 
+        "room": 1, "floor": 6, "floors": 15, "area": 55, "area_liv": 21, "height": "2.8", "year": "2006",
+        "state": "євроремонт", "planning": "роздільне", "kitchen": "кухня-їдальня", "bathroom": "совм. (душ)", "build": "газобетон",
+        "status": "неактивний", "date": "03.01.2024",
+        "images":[
+            "./images/308/1.jpg", "./images/308/2.jpg", "./images/308/3.jpg", "./images/308/4.jpg",
+            "./images/308/5.jpg", "./images/308/6.jpg", "./images/308/7.jpg", "./images/308/8.jpg", "./images/308/9.jpg"
+        ],
+        "description":  "Опис"
     }
     
 ]

@@ -4,16 +4,16 @@
 
 table{
     border-collapse: collapse;
-    width: 100%;
     border-spacing: 0;
 }
 
-table th, table td {
+.table th, .table td {
     text-align: left;
     border: 1px solid rgb(43,44,52, 30%);
 }
 
 .table{
+    width: 100%;
     background: white;
     border: 2px solid #543FBA;
     box-shadow: 0 4px 3px 0 rgb(43,44,52, 60%);
@@ -109,4 +109,19 @@ input{
 }
 .column_50{
     width: 50px;
+}
+/* -------- */
+
+.table_charact th, .table_charact td {
+    text-align: left;
+    padding: 5px;
+}
+
+.table_charact img {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+
+.table_charact tr:hover{
+    color: #543FBA;    
 }

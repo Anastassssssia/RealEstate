@@ -3,6 +3,7 @@ import Login from "./components/Login/Login";
 import {Layout} from './components/Layout/Layout';
 import RealEstate from "./pages/RealEstate/RealEstate";
 import IdRealEstate from "./pages/RealEstate/IdRealEstate";
+import AddRealEstate from "./pages/RealEstate/AddRealEstate";
 import Requests from "./pages/Requests/Requests";
 import ContractsOwners from "./pages/ContractsOwners/ContractsOwners";
 import Contracts from "./pages/Contracts/Contracts";
@@ -21,6 +22,7 @@ function App() {
         <Route path='/' element={<Layout />}>
           <Route index element={<RealEstate />} />
           <Route path='/:id' element={<IdRealEstate />} />
+          <Route path='addRealEstate' element={<AddRealEstate />} />
           <Route path='requests' element={<Requests />} />
           <Route path='contracts_owners' element={<ContractsOwners />} />
           <Route path='contracts' element={<Contracts />} />

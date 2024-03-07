@@ -1,25 +1,82 @@
 [
     {
-        "id": "67",
-        "id_owners": "33", 
-        "id_realEstate": "44", 
-        "type": "продати",
-        "type_property": "квартира",
-        "realtor": "Волошина Мішель",
-        "status": "активний",
-        "date_start": "22.04.2023",
-        "date_end": "22.04.2024"
+        "id": "501", "id_owners": "101", "id_realEstate": "303", 
+        "type": "сдати в оренду", "type_property": "квартира", "realtor": "Волошина Мішель",
+        "status": "активний", "date_start": "22.04.2023", "date_end": "22.04.2024"
     },
     {
-        "id": "68", 
-        "id_owners": "65", 
-        "id_realEstate": "21", 
-        "type": "сдати в оренду",
-        "type_property": "будинок",
-        "realtor": "Волошина Мішель",
-        "status": "неактивний",
-        "date_start": "08.07.2022",
-        "date_end": "08.01.2023"
+        "id": "502", "id_owners": "104", "id_realEstate": "304", 
+        "type": "сдати в оренду", "type_property": "будинок", "realtor": "Волошина Мішель",
+        "status": "неактивний", "date_start": "08.07.2022", "date_end": "08.01.2023"
+    },
+    {
+        "id": "503", "id_owners": "105", "id_realEstate": "305", 
+        "type": "продати", "type_property": "будинок", "realtor": "Лисенко Андрій",
+        "status": "неактивний", "date_start": "15.03.2023", "date_end": "15.03.2024"
+    },
+    {
+        "id": "504", "id_owners": "109", "id_realEstate": "306", 
+        "type": "продати", "type_property": "будинок", "realtor": "Романенко Ігор",
+        "status": "неактивний", "date_start": "10.05.2023", "date_end": "10.05.2024"
+    },
+    {
+        "id": "505", "id_owners": "107", "id_realEstate": "307", 
+        "type": "сдати в оренду", "type_property": "квартира", "realtor": "Тимошенко Анастасія",
+        "status": "неактивний", "date_start": "20.07.2023", "date_end": "20.07.2024"
+    },
+    {
+        "id": "506", "id_owners": "108", "id_realEstate": "308", 
+        "type": "сдати в оренду", "type_property": "квартира", "realtor": "Ніколаєва Олена",
+        "status": "активний", "date_start": "01.09.2023", "date_end": "01.09.2024"
+    },
+    {
+        "id": "507", "id_owners": "103", "id_realEstate": "309", 
+        "type": "продати", "type_property": "квартира", "realtor": "Романенко Ігор",
+        "status": "неактивний", "date_start": "05.11.2023", "date_end": "05.11.2024"
+    },
+    {
+        "id": "508", "id_owners": "106", "id_realEstate": "310", 
+        "type": "продати", "type_property": "будинок", "realtor": "Петренко Тетяна",
+        "status": "активний", "date_start": "08.07.2022", "date_end": "08.01.2023"
+    },
+    {
+        "id": "509", "id_owners": "102", "id_realEstate": "311", 
+        "type": "сдати в оренду", "type_property": "квартира", "realtor": "Черненко Володимир",
+        "status": "активний", "date_start": "10.11.2023", "date_end": "10.05.2024"
+    },
+    {
+        "id": "510", "id_owners": "110", "id_realEstate": "312", 
+        "type": "продати", "type_property": "квартира", "realtor": "Лисенко Андрій",
+        "status": "неактивний", "date_start": "15.12.2023", "date_end": ""
+    },
+    {
+        "id": "511", "id_owners": "111", "id_realEstate": "313", 
+        "type": "сдати в оренду", "type_property": "квартира", "realtor": "Ніколаєва Олена",
+        "status": "активний", "date_start": "20.01.2024", "date_end": "20.07.2024"
+    },
+    {
+        "id": "512", "id_owners": "112", "id_realEstate": "314", 
+        "type": "сдати в оренду", "type_property": "будинок", "realtor": "Волошина Мішель",
+        "status": "активний", "date_start": "25.02.204", "date_end": "25.07.2024"
+    },
+    {
+        "id": "513", "id_owners": "113", "id_realEstate": "315", 
+        "type": "продати", "type_property": "будинок", "realtor": "Лисенко Андрій",
+        "status": "активний", "date_start": "10.03.2024", "date_end": "10.09.2024"
+    },
+    {
+        "id": "514", "id_owners": "114", "id_realEstate": "316", 
+        "type": "продати", "type_property": "будинок", "realtor": "Романенко Ігор",
+        "status": "активний", "date_start": "15.04.2024", "date_end": "15.10.2024"
+    },
+    {
+        "id": "515", "id_owners": "115", "id_realEstate": "317", 
+        "type": "сдати в оренду", "type_property": "квартира", "realtor": "Тимошенко Анастасія",
+        "status": "неактивний", "date_start": "20.05.2024", "date_end": "20.11.2024"
+    },
+    {
+        "id": "515", "id_owners": "116", "id_realEstate": "318", 
+        "type": "сдати в оренду", "type_property": "квартира", "realtor": "Ніколаєва Олена",
+        "status": "активний", "date_start": "20.05.2024", "date_end": "20.11.2024"
     }
-    
 ]
